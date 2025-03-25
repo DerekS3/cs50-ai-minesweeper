@@ -6,7 +6,7 @@ A Minesweeper game with an AI that uses logical inference to identify safe moves
 
 `minesweeper.py`:
 
-`Sentence` Class:
+**Sentence Class**
 
 `known_mines`: Returns a set of cells in the sentence that are known to be mines.
 
@@ -16,7 +16,7 @@ A Minesweeper game with an AI that uses logical inference to identify safe moves
 
 `mark_safe`: Updates the sentence by removing the cell known to be safe while maintaining logical correctness.
 
-`MinesweeperAI` Class:
+**MinesweeperAI Class**
 
 `add_knowledge`: Marks a cell as safe, adds a new sentence to the AI's knowledge based on neighboring mine counts, and makes new inferences about safe cells or mines.
 
